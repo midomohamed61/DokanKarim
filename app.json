@@ -3,9 +3,9 @@
     "name": "DokanKarim",
     "slug": "DokanKarim",
     "version": "1.0.0",
+    "scheme": "DokanKarim",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -25,7 +25,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router"
